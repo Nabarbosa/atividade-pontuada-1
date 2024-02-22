@@ -1,6 +1,6 @@
 programa {
-  //emprestimos: o valor total do empréstimo deve ser até dez vezes
-  //o valor da renda mensal do solicitante e o valor da prestação
+  //emprestimos: o valor total do emprÃ©stimo deve ser atÃ© dez vezes
+  //o valor da renda mensal do solicitante e o valor da prestaÃ§Ã£o
   //deve ser no maximo 30% da renda mensal do solicitante
   funcao inicio() {
     real rendaMensal, emprestimo, nuPrestacao
@@ -9,18 +9,18 @@ programa {
     escreva("Renda mensal do solicitante: ")
     leia(rendaMensal)
 
-    escreva("Valor total do empréstimo: ")
+    escreva("Valor total do emprÃ©stimo: ")
     leia(emprestimo)
 
-    escreva("Total de prestações: ")
+    escreva("Total de prestaÃ§Ãµes: ")
     leia(nuPrestacao)
 
-  //Apresentando critérios
-    se (emprestimo >= 10 * rendaMensal e nuPrestacao > 0.03 * rendaMensal){
-      escreva("Empréstimo concedido!")
+  //Apresentando critÃ©rios
+    se (emprestimo >= 10 * rendaMensal e nuPrestacao > 0.3 * rendaMensal){
+      escreva("EmprÃ©stimo concedido!")
     }
     senao{
-      escreva("Emprétimo negado!")
+      escreva("EmprÃ©timo negado!")
     }
     
   }
